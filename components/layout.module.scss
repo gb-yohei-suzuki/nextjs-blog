@@ -1,7 +1,13 @@
+@use 'variables' as *;
+
 .container {
   max-width: 36rem;
   padding: 0 1rem;
   margin: 3rem auto 6rem;
+
+  // @include mq(md) {
+  //   background-color: aqua;
+  // }
 }
 
 .header {
